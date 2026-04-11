@@ -18,7 +18,7 @@ VERSION = "0.3"
 JAVASCRIPT_SIGNATURES = []# Signatures pour fichiers JavaScript
 PHP_SIGNATURES = []# Signatures pour fichiers PHP
 HASH_SIGNATURES = []# Signatures basées sur les hash MD5
-HASHTABLE = {}# Table de correspondance hash -> malware
+HASHTABLE = {}
 #Calcule le hash MD5 d'un fichier.
 #  Utilisé pour comparer les fichiers aux signatures connues.
     
